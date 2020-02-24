@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Answer</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Stupid Coaching</h1>
+
+
+    <p class="answer"> <%= @question %></p>
+    <p class="answer">- You</p>
+
+  <div class="coach-response">
+    <p class="answer"><%= @answer %></p>
+    <p class="answer">- Your coach</p>
+</div>
+
+    <%= link_to 'Ask a new question', ask_path %>
+ </div>
+</body>
+</html>
+
